@@ -4,7 +4,7 @@
   "hymnals": {
     "SDAH": {
       "folder": "sdah",
-      "count": 678,
+      "count": 695,
       "hymns": {
         "1": [
           {
@@ -325,6 +325,12 @@
           }
         ],
         "54": [
+          {
+            "label": "Partition",
+            "file": "score054_055.pdf"
+          }
+        ],
+        "55": [
           {
             "label": "Partition",
             "file": "score054_055.pdf"
@@ -1422,6 +1428,12 @@
             "file": "score237_38.pdf"
           }
         ],
+        "238": [
+          {
+            "label": "Partition",
+            "file": "score237_38.pdf"
+          }
+        ],
         "239": [
           {
             "label": "Partition",
@@ -1936,6 +1948,12 @@
             "file": "score323_324.pdf"
           }
         ],
+        "324": [
+          {
+            "label": "Partition",
+            "file": "score323_324.pdf"
+          }
+        ],
         "325": [
           {
             "label": "Partition",
@@ -2398,6 +2416,12 @@
             "file": "score401_402.pdf"
           }
         ],
+        "402": [
+          {
+            "label": "Partition",
+            "file": "score401_402.pdf"
+          }
+        ],
         "403": [
           {
             "label": "Partition",
@@ -2435,6 +2459,12 @@
           }
         ],
         "409": [
+          {
+            "label": "Partition",
+            "file": "score409_410.pdf"
+          }
+        ],
+        "410": [
           {
             "label": "Partition",
             "file": "score409_410.pdf"
@@ -2489,6 +2519,12 @@
           }
         ],
         "419": [
+          {
+            "label": "Partition",
+            "file": "score419_420.pdf"
+          }
+        ],
+        "420": [
           {
             "label": "Partition",
             "file": "score419_420.pdf"
@@ -3214,6 +3250,12 @@
             "file": "score540_541.pdf"
           }
         ],
+        "541": [
+          {
+            "label": "Partition",
+            "file": "score540_541.pdf"
+          }
+        ],
         "542": [
           {
             "label": "Partition",
@@ -3221,6 +3263,12 @@
           }
         ],
         "543": [
+          {
+            "label": "Partition",
+            "file": "score543_544.pdf"
+          }
+        ],
+        "544": [
           {
             "label": "Partition",
             "file": "score543_544.pdf"
@@ -3245,6 +3293,12 @@
           }
         ],
         "548": [
+          {
+            "label": "Partition",
+            "file": "score548_549.pdf"
+          }
+        ],
+        "549": [
           {
             "label": "Partition",
             "file": "score548_549.pdf"
@@ -3918,6 +3972,12 @@
             "file": "score659_60.pdf"
           }
         ],
+        "660": [
+          {
+            "label": "Partition",
+            "file": "score659_60.pdf"
+          }
+        ],
         "661": [
           {
             "label": "Partition",
@@ -3942,6 +4002,12 @@
             "file": "score664_665.pdf"
           }
         ],
+        "665": [
+          {
+            "label": "Partition",
+            "file": "score664_665.pdf"
+          }
+        ],
         "666": [
           {
             "label": "Partition",
@@ -3949,6 +4015,12 @@
           }
         ],
         "667": [
+          {
+            "label": "Partition",
+            "file": "score667_68.pdf"
+          }
+        ],
+        "668": [
           {
             "label": "Partition",
             "file": "score667_68.pdf"
@@ -3996,6 +4068,12 @@
             "file": "score675_676.pdf"
           }
         ],
+        "676": [
+          {
+            "label": "Partition",
+            "file": "score675_676.pdf"
+          }
+        ],
         "677": [
           {
             "label": "Partition",
@@ -4020,6 +4098,12 @@
             "file": "score680_681.pdf"
           }
         ],
+        "681": [
+          {
+            "label": "Partition",
+            "file": "score680_681.pdf"
+          }
+        ],
         "682": [
           {
             "label": "Partition",
@@ -4027,6 +4111,12 @@
           }
         ],
         "683": [
+          {
+            "label": "Partition",
+            "file": "score683_684.pdf"
+          }
+        ],
+        "684": [
           {
             "label": "Partition",
             "file": "score683_684.pdf"
@@ -4080,7 +4170,19 @@
             "file": "score692_693.pdf"
           }
         ],
+        "693": [
+          {
+            "label": "Partition",
+            "file": "score692_693.pdf"
+          }
+        ],
         "694": [
+          {
+            "label": "Partition",
+            "file": "score694_695.pdf"
+          }
+        ],
+        "695": [
           {
             "label": "Partition",
             "file": "score694_695.pdf"

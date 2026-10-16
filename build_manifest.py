@@ -15,20 +15,35 @@ SRC_NZK = ROOT / "assets" / "Partitions_" / "Partitions_Nyimbo_Za_Kristo_nzkhymn
 OUT = Path(__file__).resolve().parent
 
 RE_SDAH_SIMPLE = re.compile(r"^score(\d{3})\.pdf$", re.I)
-RE_SDAH_MULTI = re.compile(r"^score(\d{3})m_(.+)\.pdf$", re.I)
+# score013m_014.pdf / score016m_015_017.pdf / score401_402.pdf / score659_60.pdf
+RE_SDAH_LINKED = re.compile(r"^score(\d{3})(m)?_(.+)\.pdf$", re.I)
 RE_NZK = re.compile(r"^NyimboZaKristo-(\d+)([A-Za-z]*)\.pdf$", re.I)
+
+
+def _normalize_linked_number(primary: int, raw: str) -> int | None:
+    """Interprète un n° lié (ex. 60 après 659 → 660)."""
+    if not raw.isdigit():
+        return None
+    n = int(raw)
+    if len(raw) >= 3:
+        return n
+    # 1–2 chiffres : compléter avec la centaine du n° principal
+    hundred = primary // 100
+    return hundred * 100 + n
 
 
 def sdah_numbers(name: str) -> list[int]:
     m = RE_SDAH_SIMPLE.match(name)
     if m:
         return [int(m.group(1))]
-    m = RE_SDAH_MULTI.match(name)
+    m = RE_SDAH_LINKED.match(name)
     if m:
-        nums = [int(m.group(1))]
-        for part in m.group(2).split("_"):
-            if part.isdigit():
-                nums.append(int(part))
+        primary = int(m.group(1))
+        nums = [primary]
+        for part in m.group(3).split("_"):
+            linked = _normalize_linked_number(primary, part)
+            if linked is not None and linked not in nums:
+                nums.append(linked)
         return nums
     m = re.search(r"score(\d+)", name, re.I)
     return [int(m.group(1))] if m else []
