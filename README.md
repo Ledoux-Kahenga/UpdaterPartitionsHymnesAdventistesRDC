@@ -1,78 +1,56 @@
 # Partitions PDF (hébergement distant)
 
-Les meilleures partitions **SDAH** et **Nyimbo za Kristo** (~113 Mo) ne doivent **pas** être embarquées dans l’APK.
+Partitions **SDAH**, **Nyimbo za Kristo**, **Hymnes et Louanges**, **Donnez-Lui Gloire** et **Church Hymnal** — hors APK, servies via GitHub raw + cache local.
 
-## Stratégie (même modèle que les textes)
-
-Repo GitHub dédié (recommandé) :
+## Repo
 
 ```
 https://github.com/Ledoux-Kahenga/UpdaterPartitionsHymnesAdventistesRDC
 ```
 
-URL raw utilisée par l’app (`AppConstants.partitionsBaseUrl`) :
+URL app (`AppConstants.partitionsBaseUrl`) :
 
 ```
 https://raw.githubusercontent.com/Ledoux-Kahenga/UpdaterPartitionsHymnesAdventistesRDC/main/
 ```
 
-### Arborescence du repo
+## Arborescence
 
 ```
-version.txt          → 1
-manifest.json        → n° chant → fichiers PDF
-sdah/score002.pdf
-sdah/score013m_014.pdf
-…
-nzk/NyimboZaKristo-1.pdf
-nzk/NyimboZaKristo-26a.pdf
-…
+version.txt
+manifest.json
+sdah/          SDAH (scoreNNN.pdf, score013m_014.pdf, …)
+nzk/           Nyimbo za Kristo
+hl/            Hymnes et Louanges (H001.pdf, H001s.pdf, …) — source Trois Anges
+dlg/           Donnez-Lui Gloire (D001.pdf, …) — source Trois Anges
+ch/            Church Hymnal 1940 (1.pdf … 702.pdf) — source hymnal.pro
 ```
 
-## Préparer la publication
+## Couverture
 
-Depuis la racine du projet Flutter :
+| Recueil | Clé manifeste | Chants DB | PDF |
+|---------|---------------|-----------|-----|
+| SDAH | `SDAH` | ~695 | fichiers `score*` (certains multi-n°) |
+| NZK | `NZKristoTb` | 220 | `NyimboZaKristo-N.pdf` |
+| Hymnes et Louanges | `HLTb` | 654 | 100 % (+ variantes `s`) |
+| Donnez-Lui Gloire | `DLGTb` | 520 | 100 % |
+| Church Hymnal | `CHTb` | 703 | 702 — **703 absent sur hymnal.pro** |
+
+## Scripts
 
 ```bash
-# 1. Régénère le manifeste
-python remote_partitions/build_manifest.py
+# HL + DLG + CH (téléchargement exhaustif)
+python remote_partitions/fetch_hl_dlg_ch.py
 
-# 2. Copie les PDF dans remote_partitions/sdah et nzk (~113 Mo)
+# SDAH / NZK depuis assets/Partitions_/
 python remote_partitions/build_manifest.py --copy
+
+# Rebuild manifeste depuis le disque
+python remote_partitions/rebuild_manifest_from_disk.py
 ```
 
-Puis crée le repo GitHub (une fois) et pousse :
+## Notes
 
-```bash
-cd remote_partitions
-git init
-git add version.txt manifest.json sdah nzk README.md
-git commit -m "Partitions SDAH + NZK"
-git branch -M main
-git remote add origin https://github.com/Ledoux-Kahenga/UpdaterPartitionsHymnesAdventistesRDC.git
-git push -u origin main
-```
-
-> Astuce : repo **public** pour que `raw.githubusercontent.com` fonctionne sans token.
-
-## Noms de fichiers
-
-| Recueil | Exemple | Remarque |
-|---------|---------|----------|
-| SDAH | `score042.pdf` | Un fichier peut couvrir plusieurs n° : `score013m_014.pdf` |
-| NZK | `NyimboZaKristo-26.pdf` | Variantes : `26a`, `137m`, `4ma` |
-
-Le `manifest.json` mappe chaque numéro vers la/les fiche(s) à télécharger.
-
-## Pourquoi pas dans l’APK ?
-
-| | APK | GitHub + cache |
-|-|-----|----------------|
-| Taille install | +113 Mo | inchangée |
-| Mise à jour | nouveau build | `git push` |
-| Lecture | offline immédiat | 1er téléchargement puis cache |
-
-## Alternatives
-
-- **GitHub Releases** : 1 zip SDAH + 1 zip NZK (bon si tu préfères un gros téléchargement unique).
-- **Cloudflare R2 / Firebase Storage** : si la bande passante GitHub devient limitée.
+- `startPage` / `endPage` (1-based) : pages à afficher pour un PDF SDAH partagé (ex. 14 → page 2 de `score013m_014.pdf`).
+- HL / DLG : plusieurs fichiers par chant si `Hnnns.pdf` / `Dnnns.pdf` existent.
+- CH **703** (*The Lord Is in His Holy Temple*) : page lyrics sur hymnal.pro, **pas de PDF** côté source.

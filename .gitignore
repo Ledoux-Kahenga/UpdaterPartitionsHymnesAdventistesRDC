@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+fetch_log.txt
+_probe_sources.py
+_retry_missing.py
+*.tmp
