@@ -1,0 +1,4 @@
+# Ne pas versionner d'artefacts locaux
+__pycache__/
+*.pyc
+.DS_Store
