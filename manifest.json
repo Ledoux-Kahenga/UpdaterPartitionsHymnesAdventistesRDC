@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 7,
   "source": "Partitions_ + Trois Anges (HL/DLG) + hymnal.pro (CH)",
-  "notes": "startPage/endPage 1-based. HL/DLG: Partition N = variantes Hnnns.pdf. CH 703 absent sur hymnal.pro.",
+  "notes": "startPage/endPage 1-based. HL/DLG: Partition N = variantes Hnnns.pdf. CH 703 absent sur hymnal.pro. NZK: Song Logic phone/tablet (shortestSide>=600 → tablet).",
   "hymnals": {
     "SDAH": {
       "folder": "sdah",
@@ -5469,12 +5469,23 @@
     },
     "NZKristoTb": {
       "folder": "nzk",
+      "folderPhone": "nzk/phone",
+      "folderTablet": "nzk/tablet",
       "count": 220,
+      "source": "Song Logic nzkmutz (phone_mode / tablet_mode)",
       "hymns": {
         "1": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-1.pdf",
+            "file": "001.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "001.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5482,7 +5493,15 @@
         "2": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-2.pdf",
+            "file": "002.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "002.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5490,7 +5509,15 @@
         "3": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-3.pdf",
+            "file": "003.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "003.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5498,21 +5525,31 @@
         "4": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-4.pdf",
+            "file": "004.pdf",
+            "mode": "phone",
             "startPage": 1,
             "endPage": 1
           },
           {
-            "label": "Partition (ma)",
-            "file": "NyimboZaKristo-4ma.pdf",
+            "label": "Partition",
+            "file": "004.pdf",
+            "mode": "tablet",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
           }
         ],
         "5": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-5.pdf",
+            "file": "005.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "005.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5520,7 +5557,15 @@
         "6": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-6.pdf",
+            "file": "006.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "006.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5528,7 +5573,15 @@
         "7": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-7.pdf",
+            "file": "007.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "007.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5536,7 +5589,15 @@
         "8": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-8.pdf",
+            "file": "008.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "008.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5544,7 +5605,15 @@
         "9": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-9.pdf",
+            "file": "009.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "009.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5552,7 +5621,15 @@
         "10": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-10.pdf",
+            "file": "010.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "010.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5560,7 +5637,15 @@
         "11": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-11.pdf",
+            "file": "011.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "011.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5568,7 +5653,15 @@
         "12": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-12.pdf",
+            "file": "012.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "012.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5576,7 +5669,15 @@
         "13": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-13.pdf",
+            "file": "013.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "013.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5584,23 +5685,47 @@
         "14": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-14.pdf",
+            "file": "014.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "014.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "15": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-15m.pdf",
+            "label": "Partition",
+            "file": "015.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "015.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "16": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-16.pdf",
+            "file": "016.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "016.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5608,7 +5733,15 @@
         "17": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-17.pdf",
+            "file": "017.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "017.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5616,7 +5749,15 @@
         "18": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-18.pdf",
+            "file": "018.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "018.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5624,7 +5765,15 @@
         "19": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-19.pdf",
+            "file": "019.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "019.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5632,7 +5781,15 @@
         "20": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-20.pdf",
+            "file": "020.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "020.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5640,7 +5797,15 @@
         "21": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-21.pdf",
+            "file": "021.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "021.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5648,7 +5813,15 @@
         "22": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-22.pdf",
+            "file": "022.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "022.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5656,7 +5829,15 @@
         "23": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-23.pdf",
+            "file": "023.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "023.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5664,7 +5845,15 @@
         "24": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-24.pdf",
+            "file": "024.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "024.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5672,7 +5861,15 @@
         "25": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-25.pdf",
+            "file": "025.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "025.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5680,13 +5877,15 @@
         "26": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-26.pdf",
+            "file": "026.pdf",
+            "mode": "phone",
             "startPage": 1,
             "endPage": 1
           },
           {
-            "label": "Partition (a)",
-            "file": "NyimboZaKristo-26a.pdf",
+            "label": "Partition",
+            "file": "026.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5694,7 +5893,15 @@
         "27": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-27.pdf",
+            "file": "027.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "027.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5702,7 +5909,15 @@
         "28": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-28.pdf",
+            "file": "028.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "028.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5710,7 +5925,15 @@
         "29": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-29.pdf",
+            "file": "029.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "029.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5718,7 +5941,15 @@
         "30": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-30.pdf",
+            "file": "030.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "030.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5726,7 +5957,15 @@
         "31": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-31.pdf",
+            "file": "031.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "031.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5734,7 +5973,15 @@
         "32": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-32.pdf",
+            "file": "032.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "032.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5742,23 +5989,47 @@
         "33": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-33.pdf",
+            "file": "033.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "033.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "34": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-34m.pdf",
+            "label": "Partition",
+            "file": "034.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "034.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "35": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-35.pdf",
+            "file": "035.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "035.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5766,7 +6037,15 @@
         "36": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-36.pdf",
+            "file": "036.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "036.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5774,7 +6053,15 @@
         "37": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-37.pdf",
+            "file": "037.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "037.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5782,7 +6069,15 @@
         "38": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-38.pdf",
+            "file": "038.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "038.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5790,7 +6085,15 @@
         "39": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-39.pdf",
+            "file": "039.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "039.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5798,7 +6101,15 @@
         "40": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-40.pdf",
+            "file": "040.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "040.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5806,7 +6117,15 @@
         "41": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-41.pdf",
+            "file": "041.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "041.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5814,7 +6133,15 @@
         "42": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-42.pdf",
+            "file": "042.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "042.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5822,7 +6149,15 @@
         "43": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-43.pdf",
+            "file": "043.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "043.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5830,7 +6165,15 @@
         "44": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-44.pdf",
+            "file": "044.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "044.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5838,7 +6181,15 @@
         "45": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-45.pdf",
+            "file": "045.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "045.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5846,7 +6197,15 @@
         "46": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-46.pdf",
+            "file": "046.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "046.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5854,7 +6213,15 @@
         "47": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-47.pdf",
+            "file": "047.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "047.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5862,7 +6229,15 @@
         "48": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-48.pdf",
+            "file": "048.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "048.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5870,7 +6245,15 @@
         "49": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-49.pdf",
+            "file": "049.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "049.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5878,7 +6261,15 @@
         "50": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-50.pdf",
+            "file": "050.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "050.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5886,7 +6277,15 @@
         "51": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-51.pdf",
+            "file": "051.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "051.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5894,23 +6293,47 @@
         "52": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-52.pdf",
+            "file": "052.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "052.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "53": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-53m.pdf",
+            "label": "Partition",
+            "file": "053.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "053.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "54": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-54.pdf",
+            "file": "054.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "054.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5918,7 +6341,15 @@
         "55": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-55.pdf",
+            "file": "055.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "055.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5926,7 +6357,15 @@
         "56": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-56.pdf",
+            "file": "056.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "056.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5934,39 +6373,79 @@
         "57": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-57.pdf",
+            "file": "057.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "057.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "58": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-58m.pdf",
+            "label": "Partition",
+            "file": "058.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "058.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "59": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-59.pdf",
+            "file": "059.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "059.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "60": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-60m.pdf",
+            "label": "Partition",
+            "file": "060.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "060.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "61": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-61.pdf",
+            "file": "061.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "061.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5974,7 +6453,15 @@
         "62": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-62.pdf",
+            "file": "062.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "062.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5982,7 +6469,15 @@
         "63": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-63.pdf",
+            "file": "063.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "063.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5990,7 +6485,15 @@
         "64": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-64.pdf",
+            "file": "064.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "064.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -5998,7 +6501,15 @@
         "65": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-65.pdf",
+            "file": "065.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "065.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6006,7 +6517,15 @@
         "66": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-66.pdf",
+            "file": "066.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "066.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6014,7 +6533,15 @@
         "67": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-67.pdf",
+            "file": "067.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "067.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6022,7 +6549,15 @@
         "68": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-68.pdf",
+            "file": "068.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "068.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6030,7 +6565,15 @@
         "69": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-69.pdf",
+            "file": "069.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "069.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6038,7 +6581,15 @@
         "70": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-70.pdf",
+            "file": "070.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "070.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6046,7 +6597,15 @@
         "71": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-71.pdf",
+            "file": "071.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "071.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6054,7 +6613,15 @@
         "72": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-72.pdf",
+            "file": "072.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "072.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6062,7 +6629,15 @@
         "73": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-73.pdf",
+            "file": "073.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "073.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6070,7 +6645,15 @@
         "74": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-74.pdf",
+            "file": "074.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "074.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6078,7 +6661,15 @@
         "75": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-75.pdf",
+            "file": "075.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "075.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6086,7 +6677,15 @@
         "76": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-76.pdf",
+            "file": "076.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "076.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6094,7 +6693,15 @@
         "77": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-77.pdf",
+            "file": "077.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "077.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6102,7 +6709,15 @@
         "78": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-78.pdf",
+            "file": "078.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "078.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6110,7 +6725,15 @@
         "79": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-79.pdf",
+            "file": "079.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "079.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6118,7 +6741,15 @@
         "80": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-80.pdf",
+            "file": "080.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "080.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6126,7 +6757,15 @@
         "81": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-81.pdf",
+            "file": "081.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "081.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6134,7 +6773,15 @@
         "82": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-82.pdf",
+            "file": "082.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "082.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6142,7 +6789,15 @@
         "83": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-83.pdf",
+            "file": "083.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "083.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6150,7 +6805,15 @@
         "84": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-84.pdf",
+            "file": "084.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "084.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6158,7 +6821,15 @@
         "85": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-85.pdf",
+            "file": "085.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "085.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6166,7 +6837,15 @@
         "86": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-86.pdf",
+            "file": "086.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "086.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6174,7 +6853,15 @@
         "87": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-87.pdf",
+            "file": "087.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "087.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6182,7 +6869,15 @@
         "88": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-88.pdf",
+            "file": "088.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "088.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6190,7 +6885,15 @@
         "89": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-89.pdf",
+            "file": "089.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "089.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6198,7 +6901,15 @@
         "90": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-90.pdf",
+            "file": "090.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "090.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6206,7 +6917,15 @@
         "91": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-91.pdf",
+            "file": "091.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "091.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6214,7 +6933,15 @@
         "92": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-92.pdf",
+            "file": "092.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "092.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6222,7 +6949,15 @@
         "93": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-93.pdf",
+            "file": "093.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "093.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6230,7 +6965,15 @@
         "94": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-94.pdf",
+            "file": "094.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "094.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6238,7 +6981,15 @@
         "95": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-95.pdf",
+            "file": "095.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "095.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6246,7 +6997,15 @@
         "96": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-96.pdf",
+            "file": "096.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "096.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6254,7 +7013,15 @@
         "97": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-97.pdf",
+            "file": "097.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "097.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6262,7 +7029,15 @@
         "98": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-98.pdf",
+            "file": "098.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "098.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6270,7 +7045,15 @@
         "99": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-99.pdf",
+            "file": "099.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "099.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6278,7 +7061,15 @@
         "100": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-100.pdf",
+            "file": "100.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "100.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6286,7 +7077,15 @@
         "101": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-101.pdf",
+            "file": "101.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "101.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6294,7 +7093,15 @@
         "102": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-102.pdf",
+            "file": "102.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "102.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6302,7 +7109,15 @@
         "103": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-103.pdf",
+            "file": "103.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "103.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6310,7 +7125,15 @@
         "104": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-104.pdf",
+            "file": "104.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "104.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6318,7 +7141,15 @@
         "105": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-105.pdf",
+            "file": "105.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "105.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6326,7 +7157,15 @@
         "106": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-106.pdf",
+            "file": "106.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "106.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6334,7 +7173,15 @@
         "107": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-107.pdf",
+            "file": "107.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "107.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6342,7 +7189,15 @@
         "108": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-108.pdf",
+            "file": "108.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "108.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6350,7 +7205,15 @@
         "109": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-109.pdf",
+            "file": "109.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "109.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6358,7 +7221,15 @@
         "110": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-110.pdf",
+            "file": "110.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "110.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6366,7 +7237,15 @@
         "111": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-111.pdf",
+            "file": "111.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "111.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6374,7 +7253,15 @@
         "112": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-112.pdf",
+            "file": "112.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "112.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6382,7 +7269,15 @@
         "113": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-113.pdf",
+            "file": "113.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "113.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6390,7 +7285,15 @@
         "114": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-114.pdf",
+            "file": "114.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "114.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6398,7 +7301,15 @@
         "115": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-115.pdf",
+            "file": "115.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "115.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6406,7 +7317,15 @@
         "116": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-116.pdf",
+            "file": "116.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "116.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6414,7 +7333,15 @@
         "117": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-117.pdf",
+            "file": "117.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "117.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6422,7 +7349,15 @@
         "118": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-118.pdf",
+            "file": "118.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "118.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6430,7 +7365,15 @@
         "119": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-119.pdf",
+            "file": "119.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "119.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6438,7 +7381,15 @@
         "120": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-120.pdf",
+            "file": "120.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "120.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6446,7 +7397,15 @@
         "121": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-121.pdf",
+            "file": "121.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "121.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6454,7 +7413,15 @@
         "122": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-122.pdf",
+            "file": "122.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "122.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6462,7 +7429,15 @@
         "123": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-123.pdf",
+            "file": "123.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "123.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6470,7 +7445,15 @@
         "124": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-124.pdf",
+            "file": "124.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "124.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6478,7 +7461,15 @@
         "125": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-125.pdf",
+            "file": "125.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "125.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6486,7 +7477,15 @@
         "126": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-126.pdf",
+            "file": "126.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "126.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6494,7 +7493,15 @@
         "127": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-127.pdf",
+            "file": "127.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "127.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6502,7 +7509,15 @@
         "128": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-128.pdf",
+            "file": "128.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "128.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6510,7 +7525,15 @@
         "129": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-129.pdf",
+            "file": "129.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "129.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6518,7 +7541,15 @@
         "130": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-130.pdf",
+            "file": "130.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "130.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6526,13 +7557,15 @@
         "131": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-131.pdf",
+            "file": "131.pdf",
+            "mode": "phone",
             "startPage": 1,
             "endPage": 1
           },
           {
-            "label": "Partition (a)",
-            "file": "NyimboZaKristo-131a.pdf",
+            "label": "Partition",
+            "file": "131.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6540,7 +7573,15 @@
         "132": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-132.pdf",
+            "file": "132.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "132.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6548,7 +7589,15 @@
         "133": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-133.pdf",
+            "file": "133.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "133.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6556,7 +7605,15 @@
         "134": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-134.pdf",
+            "file": "134.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "134.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6564,7 +7621,15 @@
         "135": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-135.pdf",
+            "file": "135.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "135.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6572,23 +7637,47 @@
         "136": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-136.pdf",
+            "file": "136.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "136.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "137": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-137m.pdf",
+            "label": "Partition",
+            "file": "137.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "137.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "138": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-138.pdf",
+            "file": "138.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "138.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6596,7 +7685,15 @@
         "139": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-139.pdf",
+            "file": "139.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "139.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6604,7 +7701,15 @@
         "140": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-140.pdf",
+            "file": "140.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "140.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6612,7 +7717,15 @@
         "141": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-141.pdf",
+            "file": "141.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "141.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6620,7 +7733,15 @@
         "142": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-142.pdf",
+            "file": "142.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "142.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6628,7 +7749,15 @@
         "143": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-143.pdf",
+            "file": "143.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "143.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6636,7 +7765,15 @@
         "144": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-144.pdf",
+            "file": "144.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "144.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6644,7 +7781,15 @@
         "145": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-145.pdf",
+            "file": "145.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "145.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6652,7 +7797,15 @@
         "146": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-146.pdf",
+            "file": "146.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "146.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6660,7 +7813,15 @@
         "147": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-147.pdf",
+            "file": "147.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "147.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6668,7 +7829,15 @@
         "148": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-148.pdf",
+            "file": "148.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "148.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6676,7 +7845,15 @@
         "149": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-149.pdf",
+            "file": "149.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "149.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6684,7 +7861,15 @@
         "150": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-150.pdf",
+            "file": "150.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "150.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6692,7 +7877,15 @@
         "151": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-151.pdf",
+            "file": "151.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "151.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6700,7 +7893,15 @@
         "152": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-152.pdf",
+            "file": "152.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "152.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6708,7 +7909,15 @@
         "153": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-153.pdf",
+            "file": "153.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "153.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6716,7 +7925,15 @@
         "154": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-154.pdf",
+            "file": "154.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "154.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6724,7 +7941,15 @@
         "155": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-155.pdf",
+            "file": "155.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "155.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6732,7 +7957,15 @@
         "156": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-156.pdf",
+            "file": "156.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "156.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6740,7 +7973,15 @@
         "157": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-157.pdf",
+            "file": "157.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "157.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6748,23 +7989,47 @@
         "158": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-158.pdf",
+            "file": "158.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "158.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "159": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-159m.pdf",
+            "label": "Partition",
+            "file": "159.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "159.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "160": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-160.pdf",
+            "file": "160.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "160.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6772,7 +8037,15 @@
         "161": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-161.pdf",
+            "file": "161.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "161.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6780,7 +8053,15 @@
         "162": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-162.pdf",
+            "file": "162.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "162.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6788,7 +8069,15 @@
         "163": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-163.pdf",
+            "file": "163.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "163.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6796,7 +8085,15 @@
         "164": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-164.pdf",
+            "file": "164.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "164.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6804,7 +8101,15 @@
         "165": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-165.pdf",
+            "file": "165.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "165.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6812,7 +8117,15 @@
         "166": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-166.pdf",
+            "file": "166.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "166.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6820,31 +8133,63 @@
         "167": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-167.pdf",
+            "file": "167.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "167.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "168": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-168m.pdf",
+            "label": "Partition",
+            "file": "168.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "168.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "169": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-169m.pdf",
+            "label": "Partition",
+            "file": "169.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "169.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "170": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-170.pdf",
+            "file": "170.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "170.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6852,7 +8197,15 @@
         "171": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-171.pdf",
+            "file": "171.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "171.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6860,23 +8213,47 @@
         "172": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-172.pdf",
+            "file": "172.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "172.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
         ],
         "173": [
           {
-            "label": "Partition (m)",
-            "file": "NyimboZaKristo-173m.pdf",
+            "label": "Partition",
+            "file": "173.pdf",
+            "mode": "phone",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "173.pdf",
+            "mode": "tablet",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "174": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-174.pdf",
+            "file": "174.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "174.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6884,7 +8261,15 @@
         "175": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-175.pdf",
+            "file": "175.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "175.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6892,7 +8277,15 @@
         "176": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-176.pdf",
+            "file": "176.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "176.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6900,7 +8293,15 @@
         "177": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-177.pdf",
+            "file": "177.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "177.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6908,7 +8309,15 @@
         "178": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-178.pdf",
+            "file": "178.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "178.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6916,7 +8325,15 @@
         "179": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-179.pdf",
+            "file": "179.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "179.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6924,7 +8341,15 @@
         "180": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-180.pdf",
+            "file": "180.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "180.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6932,7 +8357,15 @@
         "181": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-181.pdf",
+            "file": "181.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "181.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6940,7 +8373,15 @@
         "182": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-182.pdf",
+            "file": "182.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "182.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6948,7 +8389,15 @@
         "183": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-183.pdf",
+            "file": "183.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "183.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6956,7 +8405,15 @@
         "184": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-184.pdf",
+            "file": "184.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "184.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6964,7 +8421,15 @@
         "185": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-185.pdf",
+            "file": "185.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "185.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6972,7 +8437,15 @@
         "186": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-186.pdf",
+            "file": "186.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "186.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6980,7 +8453,15 @@
         "187": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-187.pdf",
+            "file": "187.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "187.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6988,7 +8469,15 @@
         "188": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-188.pdf",
+            "file": "188.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "188.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -6996,7 +8485,15 @@
         "189": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-189.pdf",
+            "file": "189.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "189.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7004,7 +8501,15 @@
         "190": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-190.pdf",
+            "file": "190.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "190.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7012,7 +8517,15 @@
         "191": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-191.pdf",
+            "file": "191.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "191.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7020,7 +8533,15 @@
         "192": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-192.pdf",
+            "file": "192.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "192.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7028,7 +8549,15 @@
         "193": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-193.pdf",
+            "file": "193.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "193.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7036,7 +8565,15 @@
         "194": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-194.pdf",
+            "file": "194.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "194.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7044,7 +8581,15 @@
         "195": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-195.pdf",
+            "file": "195.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "195.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7052,7 +8597,15 @@
         "196": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-196.pdf",
+            "file": "196.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "196.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7060,7 +8613,15 @@
         "197": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-197.pdf",
+            "file": "197.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "197.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7068,7 +8629,15 @@
         "198": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-198.pdf",
+            "file": "198.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "198.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7076,7 +8645,15 @@
         "199": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-199.pdf",
+            "file": "199.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "199.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7084,7 +8661,15 @@
         "200": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-200.pdf",
+            "file": "200.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "200.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7092,7 +8677,15 @@
         "201": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-201.pdf",
+            "file": "201.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "201.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7100,7 +8693,15 @@
         "202": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-202.pdf",
+            "file": "202.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "202.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7108,7 +8709,15 @@
         "203": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-203.pdf",
+            "file": "203.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "203.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7116,7 +8725,15 @@
         "204": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-204.pdf",
+            "file": "204.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "204.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7124,7 +8741,15 @@
         "205": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-205.pdf",
+            "file": "205.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "205.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7132,7 +8757,15 @@
         "206": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-206.pdf",
+            "file": "206.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "206.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7140,7 +8773,15 @@
         "207": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-207.pdf",
+            "file": "207.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "207.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7148,7 +8789,15 @@
         "208": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-208.pdf",
+            "file": "208.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "208.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7156,7 +8805,15 @@
         "209": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-209.pdf",
+            "file": "209.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "209.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7164,7 +8821,15 @@
         "210": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-210.pdf",
+            "file": "210.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "210.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7172,7 +8837,15 @@
         "211": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-211.pdf",
+            "file": "211.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "211.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7180,7 +8853,15 @@
         "212": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-212.pdf",
+            "file": "212.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "212.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7188,7 +8869,15 @@
         "213": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-213.pdf",
+            "file": "213.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "213.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7196,7 +8885,15 @@
         "214": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-214.pdf",
+            "file": "214.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "214.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7204,7 +8901,15 @@
         "215": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-215.pdf",
+            "file": "215.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "215.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7212,7 +8917,15 @@
         "216": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-216.pdf",
+            "file": "216.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "216.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7220,7 +8933,15 @@
         "217": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-217.pdf",
+            "file": "217.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "217.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7228,7 +8949,15 @@
         "218": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-218.pdf",
+            "file": "218.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "218.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7236,7 +8965,15 @@
         "219": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-219.pdf",
+            "file": "219.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "219.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }
@@ -7244,7 +8981,15 @@
         "220": [
           {
             "label": "Partition",
-            "file": "NyimboZaKristo-220.pdf",
+            "file": "220.pdf",
+            "mode": "phone",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition",
+            "file": "220.pdf",
+            "mode": "tablet",
             "startPage": 1,
             "endPage": 1
           }

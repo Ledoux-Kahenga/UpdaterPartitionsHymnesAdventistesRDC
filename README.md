@@ -20,18 +20,21 @@ https://raw.githubusercontent.com/Ledoux-Kahenga/UpdaterPartitionsHymnesAdventis
 version.txt
 manifest.json
 sdah/          SDAH (scoreNNN.pdf, score013m_014.pdf, …)
-nzk/           Nyimbo za Kristo
+nzk/phone/     Nyimbo za Kristo — Song Logic phone (NNN.pdf)
+nzk/tablet/    Nyimbo za Kristo — Song Logic tablet (NNN.pdf)
 hl/            Hymnes et Louanges (H001.pdf, H001s.pdf, …) — source Trois Anges
 dlg/           Donnez-Lui Gloire (D001.pdf, …) — source Trois Anges
 ch/            Church Hymnal 1940 (1.pdf … 702.pdf) — source hymnal.pro
 ```
+
+L’app choisit `nzk/phone` ou `nzk/tablet` selon `shortestSide >= 600`.
 
 ## Couverture
 
 | Recueil | Clé manifeste | Chants DB | PDF |
 |---------|---------------|-----------|-----|
 | SDAH | `SDAH` | ~695 | fichiers `score*` (certains multi-n°) |
-| NZK | `NZKristoTb` | 220 | `NyimboZaKristo-N.pdf` |
+| NZK | `NZKristoTb` | 220 | Song Logic `phone` / `tablet` |
 | Hymnes et Louanges | `HLTb` | 654 | 100 % (+ variantes `s`) |
 | Donnez-Lui Gloire | `DLGTb` | 520 | 100 % |
 | Church Hymnal | `CHTb` | 703 | 702 — **703 absent sur hymnal.pro** |
