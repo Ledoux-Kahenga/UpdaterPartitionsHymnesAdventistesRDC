@@ -22,6 +22,7 @@ manifest.json
 sdah/          SDAH (scoreNNN.pdf, score013m_014.pdf, …)
 nzk/phone/     Nyimbo za Kristo — Song Logic phone (NNN.pdf)
 nzk/tablet/    Nyimbo za Kristo — Song Logic tablet (NNN.pdf)
+nzk_audio/     Nyimbo za Kristo — Song Logic MP3 (001.mp3…200.mp3) ; catalogue `audios_links.json`
 hl/            Hymnes et Louanges (H001.pdf, H001s.pdf, …) — source Trois Anges
 dlg/           Donnez-Lui Gloire (D001.pdf, …) — source Trois Anges
 ch/            Church Hymnal 1940 (1.pdf … 702.pdf) — source hymnal.pro
