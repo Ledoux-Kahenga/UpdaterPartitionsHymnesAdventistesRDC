@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "source": "Partitions_ + Trois Anges (HL/DLG) + hymnal.pro (CH)",
   "notes": "startPage/endPage 1-based. HL/DLG: Partition N = variantes Hnnns.pdf. CH 703 absent sur hymnal.pro. NZK: Song Logic phone/tablet (shortestSide>=600 → tablet).",
   "hymnals": {
@@ -15040,42 +15040,72 @@
         ],
         "2": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D002.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D002s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "3": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D003.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D003s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "4": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D004.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D004s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "5": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D005.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D005s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "6": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D006.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D006s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "7": [
@@ -15232,10 +15262,16 @@
         ],
         "26": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D026.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D026s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "27": [
@@ -15256,18 +15292,30 @@
         ],
         "29": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D029.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D029s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "30": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D030.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D030s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "31": [
@@ -15304,10 +15352,16 @@
         ],
         "35": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D035.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D035s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "36": [
@@ -15376,10 +15430,16 @@
         ],
         "44": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D044.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D044s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "45": [
@@ -15424,10 +15484,16 @@
         ],
         "50": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D050.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D050s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "51": [
@@ -15448,10 +15514,16 @@
         ],
         "53": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D053.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D053s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "54": [
@@ -15464,10 +15536,16 @@
         ],
         "55": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D055.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D055s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "56": [
@@ -15504,26 +15582,50 @@
         ],
         "60": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D060.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D060s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "61": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D061.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D061s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "62": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D062.pdf",
             "startPage": 1,
-            "endPage": 3
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D062s.pdf",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition 3",
+            "file": "D062ss.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "63": [
@@ -15536,18 +15638,30 @@
         ],
         "64": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D064.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D064s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "65": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D065.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D065s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "66": [
@@ -15568,18 +15682,30 @@
         ],
         "68": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D068.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D068s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "69": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D069.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D069s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "70": [
@@ -15608,10 +15734,16 @@
         ],
         "73": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D073.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D073s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "74": [
@@ -15664,10 +15796,16 @@
         ],
         "80": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D080.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D080s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "81": [
@@ -15688,10 +15826,16 @@
         ],
         "83": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D083.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D083s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "84": [
@@ -15704,10 +15848,16 @@
         ],
         "85": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D085.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D085s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "86": [
@@ -15736,50 +15886,92 @@
         ],
         "89": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D089.pdf",
             "startPage": 1,
-            "endPage": 3
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D089s.pdf",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition 3",
+            "file": "D089ss.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "90": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D090.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D090s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "91": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D091.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D091s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "92": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D092.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D092s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "93": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D093.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D093s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "94": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D094.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D094s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "95": [
@@ -15808,26 +16000,44 @@
         ],
         "98": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D098.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D098s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "99": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D099.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D099s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "100": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D100.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D100s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "101": [
@@ -15840,10 +16050,16 @@
         ],
         "102": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D102.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D102s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "103": [
@@ -15856,10 +16072,16 @@
         ],
         "104": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D104.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D104s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "105": [
@@ -15912,10 +16134,16 @@
         ],
         "111": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D111.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D111s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "112": [
@@ -16008,10 +16236,16 @@
         ],
         "123": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D123.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D123s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "124": [
@@ -16024,10 +16258,16 @@
         ],
         "125": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D125.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D125s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "126": [
@@ -16048,18 +16288,30 @@
         ],
         "128": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D128.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D128s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "129": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D129.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D129s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "130": [
@@ -16088,18 +16340,30 @@
         ],
         "133": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D133.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D133s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "134": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D134.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D134s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "135": [
@@ -16128,10 +16392,16 @@
         ],
         "138": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D138.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D138s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "139": [
@@ -16144,10 +16414,16 @@
         ],
         "140": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D140.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D140s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "141": [
@@ -16176,34 +16452,58 @@
         ],
         "144": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D144.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D144s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "145": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D145.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D145s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "146": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D146.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D146s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "147": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D147.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D147s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "148": [
@@ -16224,10 +16524,16 @@
         ],
         "150": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D150.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D150s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "151": [
@@ -16248,10 +16554,16 @@
         ],
         "153": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D153.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D153s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "154": [
@@ -16264,10 +16576,16 @@
         ],
         "155": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D155.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D155s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "156": [
@@ -16280,18 +16598,30 @@
         ],
         "157": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D157.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D157s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "158": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D158.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D158s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "159": [
@@ -16352,10 +16682,16 @@
         ],
         "166": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D166.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D166s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "167": [
@@ -16368,10 +16704,16 @@
         ],
         "168": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D168.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D168s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "169": [
@@ -16424,26 +16766,44 @@
         ],
         "175": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D175.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D175s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "176": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D176.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D176s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "177": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D177.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D177s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "178": [
@@ -16464,10 +16824,16 @@
         ],
         "180": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D180.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D180s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "181": [
@@ -16512,10 +16878,16 @@
         ],
         "186": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D186.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D186s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "187": [
@@ -16528,10 +16900,16 @@
         ],
         "188": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D188.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D188s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "189": [
@@ -16592,10 +16970,16 @@
         ],
         "196": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D196.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D196s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "197": [
@@ -16656,10 +17040,16 @@
         ],
         "204": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D204.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D204s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "205": [
@@ -16672,10 +17062,16 @@
         ],
         "206": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D206.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D206s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "207": [
@@ -16768,10 +17164,16 @@
         ],
         "218": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D218.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D218s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "219": [
@@ -16904,10 +17306,16 @@
         ],
         "235": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D235.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D235s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "236": [
@@ -16960,10 +17368,16 @@
         ],
         "242": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D242.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D242s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "243": [
@@ -17128,18 +17542,30 @@
         ],
         "263": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D263.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D263s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "264": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D264.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D264s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "265": [
@@ -17152,10 +17578,16 @@
         ],
         "266": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D266.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D266s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "267": [
@@ -17184,10 +17616,16 @@
         ],
         "270": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D270.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D270s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "271": [
@@ -17240,10 +17678,16 @@
         ],
         "277": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D277.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D277s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "278": [
@@ -17280,10 +17724,16 @@
         ],
         "282": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D282.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D282s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "283": [
@@ -17312,10 +17762,16 @@
         ],
         "286": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D286.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D286s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "287": [
@@ -17344,10 +17800,16 @@
         ],
         "290": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D290.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D290s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "291": [
@@ -17360,10 +17822,16 @@
         ],
         "292": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D292.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D292s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "293": [
@@ -17512,10 +17980,16 @@
         ],
         "311": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D311.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D311s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "312": [
@@ -17576,10 +18050,16 @@
         ],
         "319": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D319.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D319s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "320": [
@@ -17624,10 +18104,16 @@
         ],
         "325": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D325.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D325s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "326": [
@@ -17648,10 +18134,16 @@
         ],
         "328": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D328.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D328s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "329": [
@@ -17688,10 +18180,16 @@
         ],
         "333": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D333.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D333s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "334": [
@@ -17736,10 +18234,16 @@
         ],
         "339": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D339.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D339s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "340": [
@@ -17784,18 +18288,30 @@
         ],
         "345": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D345.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D345s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "346": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D346.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D346s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "347": [
@@ -17808,18 +18324,30 @@
         ],
         "348": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D348.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D348s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "349": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D349.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D349s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "350": [
@@ -17832,10 +18360,16 @@
         ],
         "351": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D351.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D351s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "352": [
@@ -17848,34 +18382,58 @@
         ],
         "353": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D353.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D353s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "354": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D354.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D354s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "355": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D355.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D355s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "356": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D356.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D356s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "357": [
@@ -17904,10 +18462,16 @@
         ],
         "360": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D360.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D360s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "361": [
@@ -17920,10 +18484,16 @@
         ],
         "362": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D362.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D362s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "363": [
@@ -17976,10 +18546,16 @@
         ],
         "369": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D369.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D369s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "370": [
@@ -18008,10 +18584,16 @@
         ],
         "373": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D373.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D373s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "374": [
@@ -18040,18 +18622,30 @@
         ],
         "377": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D377.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D377s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "378": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D378.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D378s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "379": [
@@ -18096,26 +18690,44 @@
         ],
         "384": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D384.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D384s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "385": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D385.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D385s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "386": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D386.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D386s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "387": [
@@ -18136,10 +18748,16 @@
         ],
         "389": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D389.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D389s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "390": [
@@ -18184,10 +18802,16 @@
         ],
         "395": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D395.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D395s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "396": [
@@ -18200,10 +18824,16 @@
         ],
         "397": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D397.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D397s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "398": [
@@ -18232,10 +18862,16 @@
         ],
         "401": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D401.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D401s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "402": [
@@ -18280,10 +18916,16 @@
         ],
         "407": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D407.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D407s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "408": [
@@ -18344,10 +18986,16 @@
         ],
         "415": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D415.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D415s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "416": [
@@ -18408,10 +19056,16 @@
         ],
         "423": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D423.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D423s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "424": [
@@ -18464,10 +19118,16 @@
         ],
         "430": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D430.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D430s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "431": [
@@ -18536,18 +19196,36 @@
         ],
         "439": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D439.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D439s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "440": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D440.pdf",
             "startPage": 1,
-            "endPage": 3
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D440s.pdf",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition 3",
+            "file": "D440ss.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "441": [
@@ -18584,10 +19262,16 @@
         ],
         "445": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D445.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D445s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "446": [
@@ -18616,18 +19300,30 @@
         ],
         "449": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D449.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D449s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "450": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D450.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D450s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "451": [
@@ -18640,10 +19336,16 @@
         ],
         "452": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D452.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D452s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "453": [
@@ -18696,10 +19398,16 @@
         ],
         "459": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D459.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D459s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "460": [
@@ -18712,10 +19420,16 @@
         ],
         "461": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D461.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D461s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "462": [
@@ -18808,10 +19522,22 @@
         ],
         "473": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D473.pdf",
             "startPage": 1,
-            "endPage": 3
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D473s.pdf",
+            "startPage": 1,
+            "endPage": 1
+          },
+          {
+            "label": "Partition 3",
+            "file": "D473ss.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "474": [
@@ -18824,10 +19550,16 @@
         ],
         "475": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D475.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D475s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "476": [
@@ -18864,10 +19596,16 @@
         ],
         "480": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D480.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D480s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "481": [
@@ -18880,18 +19618,30 @@
         ],
         "482": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D482.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D482s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "483": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D483.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D483s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "484": [
@@ -18912,18 +19662,30 @@
         ],
         "486": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D486.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D486s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "487": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D487.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D487s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "488": [
@@ -18992,10 +19754,16 @@
         ],
         "496": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D496.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D496s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "497": [
@@ -19008,10 +19776,16 @@
         ],
         "498": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D498.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D498s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "499": [
@@ -19024,18 +19798,30 @@
         ],
         "500": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D500.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D500s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "501": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D501.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D501s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "502": [
@@ -19056,26 +19842,44 @@
         ],
         "504": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D504.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D504s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "505": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D505.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D505s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "506": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D506.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D506s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "507": [
@@ -19096,26 +19900,44 @@
         ],
         "509": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D509.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D509s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "510": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D510.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D510s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "511": [
           {
-            "label": "Partition",
+            "label": "Partition 1",
             "file": "D511.pdf",
             "startPage": 1,
-            "endPage": 2
+            "endPage": 1
+          },
+          {
+            "label": "Partition 2",
+            "file": "D511s.pdf",
+            "startPage": 1,
+            "endPage": 1
           }
         ],
         "512": [
