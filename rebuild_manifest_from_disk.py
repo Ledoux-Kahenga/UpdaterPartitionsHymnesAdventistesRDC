@@ -132,8 +132,15 @@ def build_nzk(folder: Path) -> dict[int, list[dict]]:
     return index
 
 
+def trois_anges_suffix_rank(suffix: str) -> tuple[int, str]:
+    """Ordre Trois Anges : principal → s → ss → s2 → _2 → autres."""
+    s = (suffix or "").lower()
+    order = {"": 0, "s": 1, "ss": 2, "s2": 3, "_2": 4}
+    return (order.get(s, 100), s)
+
+
 def build_prefix(folder: Path, pattern: re.Pattern[str]) -> dict[int, list[dict]]:
-    """HL / DLG : H001.pdf + H001s.pdf → liste ordonnée."""
+    """HL / DLG : H001.pdf + H001s.pdf (+ ss) → Partition 1, 2, 3…"""
     by_hymn: dict[int, list[tuple[str, Path]]] = {}
     for pdf in sorted(folder.glob("*.pdf")):
         m = pattern.match(pdf.name)
@@ -144,12 +151,13 @@ def build_prefix(folder: Path, pattern: re.Pattern[str]) -> dict[int, list[dict]
 
     index: dict[int, list[dict]] = {}
     for hymn, items in by_hymn.items():
-        # Tri : principal (suffixe vide) d'abord, puis variantes
+        # Tri : principal puis suivants (s / ss / …) — 1 fichier = 1 partition
         def sort_key(item: tuple[str, Path]) -> tuple[int, str, str]:
             name = item[0]
             m = pattern.match(name)
             suffix = (m.group(2) if m else "") or ""
-            return (0 if suffix == "" else 1, suffix, name)
+            rank, suf = trois_anges_suffix_rank(suffix)
+            return (rank, suf, name)
 
         items_sorted = sorted(items, key=sort_key)
         entries = []
