@@ -1,7 +1,7 @@
 {
   "version": 8,
   "source": "Partitions_ + Trois Anges (HL/DLG) + hymnal.pro (CH)",
-  "notes": "startPage/endPage 1-based. HL/DLG: Partition N = variantes Hnnns.pdf. CH 703 absent sur hymnal.pro. NZK: Song Logic phone/tablet (shortestSide>=600 → tablet).",
+  "notes": "startPage/endPage 1-based. HL/DLG: Partition N = variantes Hnnns.pdf. CH 703 absent sur hymnal.pro. NZK: Song Logic phone/tablet (shortestSide>=600 → tablet). DLG/HL: DNNN.pdf + Dnnns/Dnnnss = Partition 1..N (pas endPage factice).",
   "hymnals": {
     "SDAH": {
       "folder": "sdah",
